@@ -1,61 +1,55 @@
 body {
     font-family: sans-serif;
+    background-color: #376152;
 }
+
 header{
-    background-color: lightblue;
-    padding: 10px;
+    background-color: #0D2D27;
+    margin-bottom: 20px;
+}
+header img{
+    width: 70px;
+    height: 70px;
+    margin:10px
+}
+main a{
+    margin:30px;
+    text-decoration: none;
+
+}
+.qq{
+    margin-left: 400px;
+    color: black;
+    background-color: white;
+    padding: 5px;
+}
+.wq{
+    color: white;
+    background-color: #233833;
+    padding: 5px;
+    
 }
 h1{
     text-align: center;
-    border: 3px solid purple;
-    border-radius:20px;
-    color:orange;
-    font-weight: 200;
-    font-size: 20px;
+    font-size: 40px;
+}
+.baze{
+    width: 700px;
+    height: 500px;
+}
+h2{
+    font-size: 30px;
+}
+.heroes{
+    width: 650px;
+    height: 400px;
 }
 footer{
-    background-color: lightpink;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    background-color: #0D2D27;
+    margin:5px;
 }
-p.q{
-    background-color: white;
-    margin: 10px;
-}
-
-p.w{
-    background-color: white;
-    margin: 10px;
-    
-}
-nav{
-     border:2px solid grey;
-     opacity: 50%;
-     border-radius: 2px;
-}
-nav a{
-    text-decoration: none;
-    
-    padding: 50px;
-    color:grey;
-}
-p.rt{
-    border:3px solid #190b73;
-    border-radius: 15px;
-    padding: 5px;
-}
-h2.ee{
-    color:blue;
-}
-img.ggg{
-    border:1px solid #4fbee0;
-    border-radius: 10px;
-}
-a.fff{
-    border:2px solid blue;
-    padding:5px;
-    text-decoration: none;
-}
-h2.nnn{
-    color:blue;
+footer p{
+    color: white;
+    padding: 7px;
+    font-size: 15px;
 }
