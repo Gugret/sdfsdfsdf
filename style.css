@@ -1,55 +1,98 @@
 body {
     font-family: sans-serif;
-    background-color: #376152;
+    background-color: black;
 }
 
-header{
-    background-color: #0D2D27;
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: ;
     margin-bottom: 20px;
-}
-header img{
-    width: 70px;
-    height: 70px;
-    margin:10px
-}
-main a{
-    margin:30px;
-    text-decoration: none;
 
 }
-.qq{
-    margin-left: 1300px;
+
+.button {
+    background-color: #36bbce;
     color: black;
-    background-color: white;
-    padding: 5px;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
 }
-.wq{
-    color: white;
-    background-color: #233833;
-    padding: 5px;
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: #951E50;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    margin-top: ;
+    margin-bottom: ;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px;
+    display: flex;
+}
+
+article {
+    background-color: white;
+    padding: ;
+    margin:15px;
+    height: 487.5px;
     
 }
-h1{
+
+.article-but {
+    text-decoration: none;
+    background-color: #951E50;
+    color: black;
+    font-size: 24px;
     text-align: center;
-    font-size: 40px;
+    padding: 10px 75px 10px 75px;
 }
-.baze{
-    width: 700px;
-    height: 500px;
+
+footer {
+    display: flex;
+    background-color: #720747;
+    padding: ;
 }
-h2{
-    font-size: 30px;
+
+footer a {
+    margin-right: ;
 }
-.heroes{
-    width: 650px;
-    height: 400px;
+
+footer p {
+    font-size: 24px;
 }
-footer{
-    background-color: #0D2D27;
-    margin:5px;
+.aqa{
+    width: 400px;
+    text-align: center;
+
 }
-footer p{
-    color: white;
-    padding: 7px;
-    font-size: 15px;
+.qw{
+    width: 330px;
+    text-align: center;
+}
+
+.as{
+    float:left;
 }
