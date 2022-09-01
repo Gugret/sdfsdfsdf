@@ -6,7 +6,6 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    padding: ;
     margin-bottom: 20px;
 
 }
@@ -39,8 +38,6 @@ h1 {
     text-align: center;
     color:white;
     font-size: 36px;
-    margin-top: ;
-    margin-bottom: ;
 }
 
 p {
@@ -56,7 +53,7 @@ p {
 
 article {
     background-color: white;
-    padding: ;
+    padding: 20px;
     margin:15px;
     height: 486.5px;
     justify-content: center;
@@ -75,11 +72,11 @@ article {
 footer {
     display: flex;
     background-color: #720747;
-    padding: ;
+    
 }
 
 footer a {
-    margin-right: ;
+    margin-right:30px ;
 }
 
 footer p {
