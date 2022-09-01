@@ -52,12 +52,12 @@ p {
 }
 
 article {
-    display:flex;
+
     background-color: white;
     padding: 20px;
     margin:15px;
     height: 486.5px;
-    justify-content: center;
+
     
 }
 
